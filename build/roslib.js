@@ -1491,7 +1491,7 @@ var Service = require('./Service');
 var ServiceRequest = require('./ServiceRequest');
 
 var assign = require('object-assign');
-var EventEmitter2 = require('eventemitter2');
+var EventEmitter2 = require('eventemitter2').EventEmitter2;
 
 /**
  * Manages connection to the server and all interactions with ROS.
@@ -1961,7 +1961,7 @@ module.exports = Ros;
 
 var ServiceResponse = require('./ServiceResponse');
 var ServiceRequest = require('./ServiceRequest');
-var EventEmitter2 = require('eventemitter2');
+var EventEmitter2 = require('eventemitter2').EventEmitter2;
 
 /**
  * A ROS service client.
@@ -2229,7 +2229,7 @@ module.exports = SocketAdapter;
  * @author Brandon Alexander - baalexander@gmail.com
  */
 
-var EventEmitter2 = require('eventemitter2');
+var EventEmitter2 = require('eventemitter2').EventEmitter2;
 var Message = require('./Message');
 
 /**
